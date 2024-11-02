@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="header">
+        <img src="img/user6.jpg" />
+        <h3>Chats</h3>
+        <i class="bx bxs-pencil"></i>
+      </div>
+      <div class="search-bar">
+        <i class="bx bx-search"></i>
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="chat-list">
+        <div class="chat-item online">
+          <div class="details">
+            <div class="image">
+              <img src="img/user1.jpg" />
+            </div>
+            <div class="text">
+              <h2>Daxton Valdez</h2>
+              <p>I get that. Anything interesting going on?</p>
+            </div>
+          </div>
+          <div class="status">
+            <span>20 min ago</span>
+            <span></span>
+          </div>
+        </div>
+        <div class="chat-item online">
+          <div class="details">
+            <div class="image">
+              <img src="img/user2.jpg" />
+            </div>
+            <div class="text">
+              <h2>Simone Eaton</h2>
+              <p>Awesome, looking forward to it! 🏞️</p>
+            </div>
+          </div>
+          <div class="status">
+            <span>08:12 PM</span>
+            <span></span>
+          </div>
+        </div>
+        <div class="chat-item offline">
+          <div class="details">
+            <div class="image">
+              <img src="img/user3.jpg" />
+            </div>
+            <div class="text">
+              <h2>Cara Noble</h2>
+              <p>Oh, great! Let me check. Thanks!</p>
+            </div>
+          </div>
+          <div class="status">
+            <span>07:34 PM</span>
+            <span></span>
+          </div>
+        </div>
+        <div class="chat-item seen offline">
+          <div class="details">
+            <div class="image">
+              <img src="img/user4.jpg" />
+            </div>
+            <div class="text">
+              <h2>Idris McGee</h2>
+              <p>"How about 7:30? There’s a new Italian place I’d love to try."</p>
+            </div>
+          </div>
+          <div class="status">
+            <span>Yesterday</span>
+            <span></span>
+          </div>
+        </div>
+        <div class="chat-item online seen">
+          <div class="details">
+            <div class="image">
+              <img src="img/user5.jpg" />
+            </div>
+            <div class="text">
+              <h2>Della Barajas</h2>
+              <p>Image sent</p>
+            </div>
+          </div>
+          <div class="status">
+            <span>Yesterday</span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="chats">
+        <div class="chat-header">
+          <div class="chat-details">
+            <i class="bx bx-chevron-left" id="close-btn"></i>
+            <img src="img/user1.jpg" />
+            <div class="chat-text">
+              <h3>Daxton Valdez</h3>
+              <span>Online</span>
+            </div>
+          </div>
+          <div class="chat-btn">
+            <button><i class="bx bxs-phone"></i></button>
+            <button><i class="bx bxs-video"></i></button>
+          </div>
+        </div>
+        <div class="chat-body">
+        </div>
+        <div class="chat-field">
+          <div class="input">
+            <i class='bx bx-smile' ></i>
+            <input type="text" placeholder="Write a message">
+            <i class='bx bx-paperclip'></i>
+          </div>
+          <i class='bx bxs-send'></i>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
